@@ -1,0 +1,58 @@
+1. Class 
+-- A class is a user defined blueprint or prototype from which objects are created
+-- It's a collection of objects
+
+## Conctructor
+-- It is a special method that is used to initialize objects
+-- It cannot declare with return type
+-- When we create object the body of constructor invoked because there is always a default constructor in your code
+-- Types
+   -- Default
+   -- Parameterized 
+   -- Copy
+      -- By Constructor
+      -- By assigning the value of one object into another
+      -- By using clone() method
+
+## Constructor Overloading
+-- constructors having same name but different in parameters
+
+2. Object
+-- Run time entity which has 
+   -- identity(name of dog)
+   -- state/attributes(breed,age,color) 
+   -- behaviors(bark,sleep,eat)
+-- Instance of a class
+-- Initialised 
+   -- Using Reference 
+   -- Using Method
+   -- Using Constructor
+
+## Method Overloading
+-- methods having same name but different in parameters
+
+## Static Keyword
+-- It is used to invoke the body of class without creating object
+-- static w are using for memory management
+-- Characteristics
+   -- static keyword actually belongs to class rather than object of class
+   -- we can use static keyword with 
+      -- variable
+      -- method 
+      -- as block
+      -- in nested class
+-- Understanding
+   -- without static --> different copies of variables/methods for every object
+   -- with static    --> same variable/method for every object)
+
+## this Keyword
+-- used as a reference variable which refer the current object 
+-- It can be used with methods as well as constructors
+-- can be used 
+   -- to refer the current class instance variable
+   -- to invoke the current class method 
+   -- to invoke the current class constructor/reuse of constructor 
+      -- constructor chaining
+   -- to pass as argument in the method - used to reuse one object in multiple methods purpose in event handling
+   -- to pass as argument in constructor
+      -- when we have multiple classes and we trying to use one object to that 
